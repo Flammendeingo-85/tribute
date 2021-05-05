@@ -71,7 +71,7 @@ iframe {
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
 }
-
+/* BIOGRAPHY */
 .biography {
   display: flow-root;
   width: 100%;
@@ -94,6 +94,7 @@ img {
   margin: 50px;
 }
 
+/* MOVIES */
 .movie-header {
   margin-bottom: 15px;
   font-size: 2em;
@@ -106,4 +107,9 @@ img {
 
 li {
   margin-bottom: 10px;
+}
+
+.top {
+  font-size: 0.75em;
+  text-decoration: none;
 }
