@@ -24,7 +24,7 @@ body {
   width: 1200px;
   background: var(--main-color);
   margin: 0 auto;
-  background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url("https://img.icons8.com/metro/26/000000/avengers.png");
+  background: var(--black);
   background-size: auto;
 }
 
@@ -72,44 +72,32 @@ iframe {
   transform-origin: 0 0;
 }
 /* BIOGRAPHY */
-.biography {
-  display: flow-root;
-  width: 100%;
+a {
+  display: inline-block;
   text-align: center;
-  background-color: var(--accent-clr);
-}
-
-img {
-  border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .biography-header {
-  padding: 0;
-  margin: 20px;
-  font-size: 2em;
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.biography {
+  display: flex;
 }
 
 .biography-text {
-  margin: 50px;
+  flex-basis: 100%;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
 }
+
 
 /* MOVIES */
-.movie-header {
-  margin-bottom: 15px;
-  font-size: 2em;
-}
-
-.movie-list {
-  list-style-type: none;
-  margin-bottom: 20px;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-.top {
-  font-size: 0.75em;
-  text-decoration: none;
+.movies {
+  
 }
