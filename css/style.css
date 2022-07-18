@@ -15,7 +15,7 @@
   --main-color: hsl(208, 7%, 45%);
   --accent-clr: hsl(349, 50%, 45%);
   --white: hsl(0, 0%, 100%);
-  --black: hsl(0, 0%, 7%);
+  --black: hsl(0, 0%, 0%);
   --gray: hsla(0, 0%, 7%, 0.5);
 }
 
